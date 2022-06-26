@@ -1,0 +1,38 @@
+body {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.headerLinks ul {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLogo {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a.headerLinks {
+    text-decoration: none;
+    list-style-type: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
