@@ -4,3 +4,8 @@
 	padding: 0;
 	box-sizing: border-box; /* sizing includes border/padding */
 }
+
+.page-wrap {
+	display: flex;
+	flex-direction: column;
+}
