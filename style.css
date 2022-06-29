@@ -134,6 +134,7 @@ a {
 .s3-quote {
   display: flex;
   flex-direction: column;
+  padding: 0px 350px 0px 350px;
 }
 
 .s3-text {
@@ -153,14 +154,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 200px 20px 200px;
+  padding: 25px 400px 20px 400px;
   height: 300px;
 }
 
 .s4-body {
   display: flex;
   background-color: #3882f6;
-  width: 1000px;
+  width: 100vw;
   height: 125px;
   justify-content: space-around;
   align-items: center;
