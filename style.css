@@ -62,6 +62,22 @@
 	font-size: 18px;
 }
 
+.section-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.s2-body {
+	display: flex;
+}
+
+.section-3 {
+	display: flex;
+	background: #000;
+}
+
 button {
 	background-color: #3882f6;
 	width: 75px;
