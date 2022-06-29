@@ -75,7 +75,9 @@
 
 .section-3 {
 	display: flex;
-	background: #000;
+	background: #e5e7eb;
+	color: #1f2937;
+	font-size: 36px;
 }
 
 button {
