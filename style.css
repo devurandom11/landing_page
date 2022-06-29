@@ -38,6 +38,7 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 50px 25px 100px 25px;
+  height: 150px;
 }
 
 .header-logo {
@@ -58,6 +59,7 @@ a {
   align-items: center;
   padding: 0px 25px 100px 25px;
   gap: 300px;
+  height: 300px;
 }
 
 .s1-left {
@@ -91,7 +93,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 200px 25px 200px;
+  padding: 0px 200px 50px 200px;
+  margin-top: 50px;
+  height: 300px;
 }
 
 .s2-body {
@@ -120,6 +124,7 @@ a {
   padding: 25px 200px 25px 200px;
   align-items: center;
   justify-content: center;
+  height: 300px;
 }
 
 .s3-quote {
@@ -128,16 +133,16 @@ a {
 }
 
 .s3-text {
-	color: #1f2937;
-	font-size: 36px;
-	font-weight: lighter;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
 }
 
 .s3-citation {
   align-self: flex-end;
   font-size: 18px;
   padding-top: 15px;
-  color: #1f2937
+  color: #1f2937;
 }
 
 .section-4 {
@@ -145,9 +150,20 @@ a {
   justify-content: center;
   align-items: center;
   padding: 25px 200px 20px 200px;
+  height: 300px;
 }
 
 .s4-body {
+  display: flex;
+  border: 5px solid red;
+  background-color: #3882f6;
+  width: 750px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.s4-cta {
   display: flex;
   flex-direction: column;
 }
