@@ -100,7 +100,10 @@ a {
 	max-width: 200px;
 }
 
-.image-1, .image-2, .image-3, .image-4 {
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
 	border: 2.5px solid #3882f6;
 	border-radius: 30px;
 }
@@ -138,11 +141,12 @@ a {
 	flex-direction: column;
 }
 
-.footer{
+.footer {
 	display: flex;
 	flex-shrink: 0;
 	justify-content: center;
 	align-items: center;
 	background: #1f2937;
 	color: #e5e7eb;
+	padding: 10px 0px 10px 0px;
 }
