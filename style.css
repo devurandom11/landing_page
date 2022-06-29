@@ -117,8 +117,6 @@ a {
 .section-3 {
   display: flex;
   background: #e5e7eb;
-  color: #1f2937;
-  font-size: 36px;
   padding: 25px 200px 25px 200px;
   align-items: center;
   justify-content: center;
@@ -129,10 +127,17 @@ a {
   flex-direction: column;
 }
 
+.s3-text {
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: lighter;
+}
+
 .s3-citation {
   align-self: flex-end;
   font-size: 18px;
   padding-top: 15px;
+  color: #1f2937
 }
 
 .section-4 {
