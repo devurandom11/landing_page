@@ -194,3 +194,13 @@ a {
   padding: 10px 0px 10px 0px;
   height: 75px;
 }
+
+
+/* TODO: 
+
+- Fix overflow and lock all flex items in their respective sections.
+- Change fonts to match italic and thin fonts in example
+- Send links somewhere
+- Send sign up button somewhere
+- Fix footer (make not shrink until no option)
+- Host page */
