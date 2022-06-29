@@ -33,10 +33,11 @@
 .section-1 {
 	background: #1f2937;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	height: 250px;
 	padding: 0px 25px 0px 25px;
+	gap: 60px;
 }
 
 .s1-left {
