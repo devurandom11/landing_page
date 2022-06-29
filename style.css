@@ -17,6 +17,10 @@ button {
   font-size: 18px;
 }
 
+button.s4-button {
+	border: solid 2px white;
+}
+
 ul,
 ol {
   list-style-type: none;
