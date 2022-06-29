@@ -1,159 +1,158 @@
 /* Reset default styles */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
-	/* sizing includes border/padding */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* sizing includes border/padding */
 }
 
 button {
-	background-color: #3882f6;
-	width: 130px;
-	height: 35px;
-	border-radius: 10px;
-	color: #f9faf8;
-	border: none;
-	font-size: 18px;
+  background-color: #3882f6;
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  color: #f9faf8;
+  border: none;
+  font-size: 18px;
 }
 
 ul,
 ol {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-	text-decoration: none;
-	color: #e5e7eb;
-	font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .page-wrap {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-	background: #1f2937;
-	display: flex;
-	justify-content: space-around;
-	padding: 50px 25px 100px 25px;
+  background: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 25px 100px 25px;
 }
 
 .header-logo {
-	color: #f9faf8;
-	font-size: 24px;
-	flex-shrink: 0;
+  color: #f9faf8;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
 .header-links {
-	display: flex;
-	gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .section-1 {
-	background: #1f2937;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0px 25px 100px 25px;
-	gap: 300px;
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 25px 100px 25px;
+  gap: 300px;
 }
 
 .s1-left {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-	max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 450px;
 }
 
 .s1-right {
-	display: flex;
+  display: flex;
 }
 
 .s1-right-img {
-	border-radius: 20px;
+  border-radius: 20px;
 }
 
 .s1-left-header {
-	font-size: 48px;
-	font-weight: 900;
-	color: #f9faf8
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
 }
 
 .s1-left-text {
-	color: #e5e7eb;
-	font-size: 18px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .section-2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 25px 200px 25px 200px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 200px 25px 200px;
 }
 
 .s2-body {
-	display: flex;
-	text-align: center;
-	flex-wrap: wrap;
-	gap: 25px;
-	padding: 25px 0px 0px 0px;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 25px 0px 0px 0px;
 }
 
 .s2-image {
-	max-width: 200px;
+  max-width: 200px;
 }
 
 .image-1,
 .image-2,
 .image-3,
 .image-4 {
-	border: 2.5px solid #3882f6;
-	border-radius: 30px;
+  border: 2.5px solid #3882f6;
+  border-radius: 30px;
 }
 
 .section-3 {
-	display: flex;
-	background: #e5e7eb;
-	color: #1f2937;
-	font-size: 36px;
-	padding: 25px 200px 25px 200px;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  padding: 25px 200px 25px 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 .s3-quote {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .s3-citation {
-	align-self: flex-end;
-	font-size: 18px;
-	padding-top: 15px;
+  align-self: flex-end;
+  font-size: 18px;
+  padding-top: 15px;
 }
 
 .section-4 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 25px 200px 20px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 200px 20px 200px;
 }
 
 .s4-body {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
-	display: flex;
-	flex-shrink: 0;
-	justify-content: center;
-	align-items: center;
-	background: #1f2937;
-	color: #e5e7eb;
-	padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 10px 0px 10px 0px;
 }
