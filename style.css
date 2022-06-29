@@ -84,11 +84,25 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 25px 200px 0px 200px;
+	padding: 25px 200px 25px 200px;
+
 }
 
 .s2-body {
 	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	gap: 25px;
+	padding: 25px 0px 0px 0px;
+}
+
+.s2-image {
+	max-width: 200px;
+}
+
+.image-1, .image-2, .image-3, .image-4 {
+	border: 2.5px solid #3882f6;
+	border-radius: 30px;
 }
 
 .section-3 {
@@ -96,12 +110,14 @@ a {
 	background: #e5e7eb;
 	color: #1f2937;
 	font-size: 36px;
+	padding: 25px 200px 25px 200px;
 }
 
 .section-4 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 25px 200px 20px 200px;
 }
 
 .footer {
