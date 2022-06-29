@@ -57,18 +57,22 @@ a {
 	justify-content: center;
 	align-items: center;
 	padding: 0px 25px 100px 25px;
-	gap: 375px;
+	gap: 300px;
 }
 
 .s1-left {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
-	max-width: 400px;
+	max-width: 450px;
 }
 
 .s1-right {
 	display: flex;
+}
+
+.s1-right-img {
+	border-radius: 20px;
 }
 
 .s1-left-header {
