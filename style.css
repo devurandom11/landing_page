@@ -111,6 +111,18 @@ a {
 	color: #1f2937;
 	font-size: 36px;
 	padding: 25px 200px 25px 200px;
+	align-items: center;
+	justify-content: center;
+}
+
+.s3-quote {
+	display: flex;
+	flex-direction: column;
+}
+
+.s3-citation {
+	align-self: flex-end;
+	font-size: 18px;
 }
 
 .section-4 {
