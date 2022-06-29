@@ -132,6 +132,11 @@ a {
 	padding: 25px 200px 20px 200px;
 }
 
+.s4-body {
+	display: flex;
+	flex-direction: column;
+}
+
 .footer {
 	display: flex;
 	justify-content: center;
