@@ -38,7 +38,10 @@
 	padding: 0px 25px 0px 25px;
 }
 
-
+.s1-left {
+	display: flex;
+	flex-direction: column;
+}
 
 ul, ol {
 	list-style-type: none;
