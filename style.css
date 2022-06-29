@@ -17,14 +17,13 @@
 	background: #1f2937;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
-	height: 100px;
-	padding: 0px 25px 0px 25px;
+	padding: 0px 25px 100px 25px;
 }
 
 .header-logo {
 	color: #f9faf8;
 	font-size: 24px;
+	flex-shrink: 0;
 }
 
 .header-links {
@@ -37,8 +36,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 250px;
-	padding: 0px 100px 0px 25px;
+	padding: 0px 100px 250px 25px;
 	gap: 60px;
 }
 
@@ -46,7 +44,6 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	align-items: flex-start;
 }
 
 .s1-right {
