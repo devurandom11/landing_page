@@ -10,4 +10,8 @@
 	flex-direction: column;
 }
 
-test
+.header {
+	background: #1f2937;
+	display: flex;
+	justify-content: space-between;
+}
