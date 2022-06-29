@@ -43,6 +43,7 @@
 .s1-left {
 	display: flex;
 	flex-direction: column;
+	gap: 20px;
 }
 
 .s1-right {
@@ -60,6 +61,11 @@
 	font-size: 18px;
 }
 
+button {
+	background-color: #3882f6;
+	width: 100px;
+	border-radius: 50px;
+}
 
 ul,
 ol {
