@@ -34,7 +34,7 @@
 .section-1 {
 	background: #1f2937;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	padding: 0px 100px 250px 25px;
 	gap: 60px;
