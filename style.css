@@ -80,6 +80,12 @@
 	font-size: 36px;
 }
 
+.section-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .footer {
 	display: flex;
 	justify-content: center;
