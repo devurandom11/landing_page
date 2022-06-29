@@ -80,6 +80,14 @@
 	font-size: 36px;
 }
 
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1f2937;
+	color: #e5e7eb;
+}
+
 button {
 	background-color: #3882f6;
 	width: 75px;
