@@ -1,8 +1,6 @@
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  /* sizing includes border/padding */
+:root {
+  --primary-color: #0a1118;
+  --primary-color-highlight: #233d54;
+  --bs-body-bg: #fbf9f6;
+  --bs-body-font-family: 'Montserrat', sans-serif;
 }
