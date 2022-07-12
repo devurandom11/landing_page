@@ -1,70 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Coffee Website</title>
-	<!-- CSS only -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-	<!-- Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-	<!-- Bootstrap Icons -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
-	<link rel="stylesheet" href="./css/style.css" />
-</head>
+  <body>
+    <!-- Header Start -->
+    <header
+      class="header p-3 position-absolute start-0 top-0 end-0"
+      style="background-color: black"
+    >
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="." class="text-decoration-none text-white fs-5 fw-bold"
+          >Craft Coffee</a
+        >
+        <div>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="toggle navigation"
+          >
+            <i class="bi bi-list" style="font-size: 1.5em"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar Section -->
+    <nav class="collapse navbar-collapse dropdown-nav" id="#navbar">
+      <div class="container-fluid">
+        <div class="row align-items-start">
+          <div class="col-12 col-sm-4">Col 1</div>
+          <div class="col-12 col-sm-4">Col 2</div>
+          <div class="col-12 col-sm-4">Col 3</div>
+        </div>
 
-<body>
-	<!-- Header Start -->
-	<header class="header p-3 position-absolute start-0 top-0 end-0" style="background-color: black">
-		<div class="d-flex justify-content-between align-items-center">
-			<a href="." class="text-decoration-none text-white fs-5 fw-bold">
-				Craft Coffee</a>
+        <!-- Close Navbar Button -->
+        <button
+          type="button"
+          class="navbar-toggler dropdown-nav__closeNavBtn"
+          aria-label="close navigation"
+          aria-controls="navbar"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-expanded="false"
+        >
+          <i class="bi bi-x" style="font-size: 2em"></i>
+        </button>
+      </div>
+    </nav>
 
-			</a>
-			<div>
-				<button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
-					aria-label="toggle navigation">
-					<i class="bi bi-list" style="font-size: 1.5em;"></i>
-				</button>
-			</div>
-		</div>
+    <!-- Navbar Section End -->
+    <!-- Header End-->
+    <main></main>
 
-	</header>
-	<!-- Navbar Section -->
-	<nav id="navbar" class="collapse navbar-collapse dropdown-nav">
-		<ul>
-			<li><a href="#">Item 1</a></li>
-			<li><a href="#">Item 2</a></li>
-			<li><a href="#">Item 3</a></li>
-			<li><a href="#">Item 4</a></li>
-		</ul>
+    <footer></footer>
 
-
-		<button type="button" class="navbar-toggler dropdown-nav__closeNavBtn" aria-label="close navigation" aria-controls="navbar" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false">
-			<i class="bi bi-x" style="font-size: 2em;"></i>
-		</button>
-
-	</nav>
-	<!-- Navbar Section End -->
-	<!-- Header End-->
-
-
-	<main></main>
-
-
-	<footer></footer>
-
-
-	<!-- JavaScript Bundle with Popper and Bootstrap -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-		crossorigin="anonymous"></script>
-</body>
-
+    <!-- JavaScript Bundle with Popper and Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
