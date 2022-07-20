@@ -1,207 +1,144 @@
-/* Reset default styles */
+/* Import bootstrap and style document */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  /* sizing includes border/padding */
-}
-
-button {
-  background-color: #3882f6;
-  width: 130px;
-  height: 35px;
-  border-radius: 10px;
-  color: #f9faf8;
-  border: none;
-  font-size: 18px;
-}
-
-button.s4-button {
-	border: solid 2px white;
-}
-
-ul,
-ol {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
-.page-wrap {
-  display: flex;
-  flex-direction: column;
 }
 
 .header {
-  background: #1f2937;
+  background-color: #fff;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar {
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-list {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 50px 300px 100px 300px;
-  height: 150px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.header-logo {
-  color: #f9faf8;
-  font-size: 24px;
-  flex-shrink: 0;
+.navbar-list li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
-.header-links {
-  display: flex;
-  gap: 50px;
+.navbar-list li a {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+  text-decoration: none;
 }
 
-.section-1 {
-  background: #1f2937;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 25px 100px 25px;
-  gap: 300px;
-  height: 300px;
+.hero {
+  background-color: #fff;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
 }
 
-.s1-left {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 450px;
-}
-
-.s1-right {
-  display: flex;
-}
-
-.s1-right-img {
-  border-radius: 20px;
-}
-
-.s1-left-header {
-  font-size: 48px;
-  font-weight: 900;
-  color: #f9faf8;
-}
-
-.s1-left-text {
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
-.section-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 200px 50px 200px;
-  margin-top: 50px;
-  height: 300px;
-}
-
-.s2-body {
-  display: flex;
+/* Center hero section and give the background an off-white color  */
+.hero .hero-inner {
   text-align: center;
-  flex-wrap: wrap;
-  gap: 25px;
-  padding: 25px 0px 0px 0px;
+  color: #fff;
+  background-color: #f5f5f5;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
 }
 
-.s2-image {
-  max-width: 200px;
+.hero-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.image-1,
-.image-2,
-.image-3,
-.image-4 {
-  border: 2.5px solid #3882f6;
-  border-radius: 30px;
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.section-3 {
-  display: flex;
-  background: #e5e7eb;
-  padding: 25px 20px 25px 20px;
-  align-items: center;
-  justify-content: center;
-  height: 300px;
+.content {
+  background-color: #fff;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
 }
 
-.s3-quote {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 350px 0px 350px;
+.content-item {
+  margin-bottom: 50px;
 }
 
-.s3-text {
-  color: #1f2937;
-  font-size: 36px;
-  font-weight: lighter;
+.content-item-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.s3-citation {
-  align-self: flex-end;
-  font-size: 18px;
-  padding-top: 15px;
-  color: #1f2937;
+.content-item-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.section-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 25px 400px 20px 400px;
-  height: 300px;
-}
-
-.s4-body {
-  display: flex;
-  background-color: #3882f6;
-  width: 100vw;
-  height: 125px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0px 50px 0px 50px;
-}
-
-.s4-cta {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5px;
-}
-
-.s4-header {
-	font-size: 24px;
-	color: #f9faf8;
-}
-
-.s4-text {
-	font-size: 18px;
-	color:#e5e7eb;
-	font-weight: lighter;
-  padding-right: 100px;
+/* make imgae size proportionate to page and centered */
+.content-item-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  width: auto;
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #1f2937;
-  color: #e5e7eb;
-  padding: 10px 0px 10px 0px;
-  height: 75px;
+  background-color: #fff;
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
 }
 
-
-/* TODO: 
-
-- Fix overflow and lock all flex items in their respective sections.
-- Change fonts to match italic and thin fonts in example
-- Send links somewhere
-- Send sign up button somewhere
-- Fix footer (make not shrink until no option)
-- Host page */
+.footer-text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}
